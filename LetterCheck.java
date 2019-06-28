@@ -30,7 +30,7 @@ public class LetterCheck {
             if (Character.isLowerCase(letter)) {
                 System.out.printf("\n%c is a lowecase letter!", letter);
             } else {
-                System.out.printf("\n%c is a uppercase letter!", letter);
+                System.out.printf("\n%c is an uppercase letter!", letter);
             }
             System.out.printf("\n%c alphabetical order: %d", letter, Character.toLowerCase(letter) - 'a' + 1);
             
